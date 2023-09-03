@@ -1,0 +1,23 @@
+Summary: This paper addresses the task of weakly-supervised domain adaptation in transfer learning. Basically, it addresses cases where there are noises in the source domain, of which noises can be of two kinds: feature corruption and label corruption. They develop an innovative mechanism to counter these two noises by a ranking mechanism, and utilize adversarial training and a student-teacher framework to address the task. The empirical evaluation is mixed, with higher classification accuracy recorded in half of the cases. 
+
+
+Strengths:
+1. The problem is very well motivated and argued for. 
+
+2. The technical presentation is clear and quite understandable. 
+
+Weakness:
+I assess the paper to have significant weaknesses, which I list below:
+
+1. Motivation: The authors base the construction of their method over an assumption that feature-corrupted data objects would have higher uncertainty. While this may be seen to be reasonable in the case of the kind of random noises that the authors use in their experiments, it is not clear whether this assumption will hold in the case of patterned noise. For example, what if there is a big black dot next to the cycle in the example figure, or other kinds of background etc. 
+
+2. Strengthening the connection between noises: The authors repeatedly use the argument that their uncertaintyrank framework strengthens the connection between feature-noise (which, as the authors argue, can be identified through higher uncertainties) and label-noise (which are injected). However, how such a strengthening is expected to be achieved at an intuition level is not clear. One can leave the burden of explanation to empirical results, but unless the results are serendipitous, it would help to have a good train of thought laid out. 
+
+3. Empirical Evaluation: The empirical evaluation seems to suggest that the results are mixed. That higher accuracies are achieved in half of the cases. Is this sufficient evidence of the mechanism working? I am not so sure. The analyses over these results are quite shallow - for example, that it is working in a large dataset as being evidence of superiority etc are not easy to take at face value. 
+
+4. Ablation Study: Given the plurality of mechanisms used in the method and the slight improvement achieved in the overall empirical evaluation, I was looking forward to seeing an ablation study. However, the ablation study is very superficial. It would help to have a detailed ablation study. Actually, the ablation study could help uncover aspects of the mechanism that is working over those that have limited effectiveness. 
+
+5. Noise Type: I assess that the expectation of random noise is fed deeply into the model construction. It would be interesting to see how non-random noise - e.g., a small piece of a picture appearing in another etc. would affect the method. 
+
+Response:
+I would like the authors to shed some light on points #1 and #2 mentioned in the weakness part. 

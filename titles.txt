@@ -1,0 +1,63 @@
+EDBT 2008 | Efficient online top-K retrieval with arbitrary similarity measures
+SDM 2008 | Unsupervised segmentation of conversational transcripts
+EDBT 2009 | E3ficient skyline retrieval with arbitrary similarity measures
+MDM 2009 | CAESAR: A Context-Aware, Social Recommender System for Low-End Mobile Devices
+CIKM 2009 | Interpretable and Reconfigurable Clustering of Document Datasets by Deriving Word-based Rules
+COMAD 2009 | CRM Analytics Framework
+IBM 2009 | A Service Delivery Platform for Server Management Services
+VLDB 2010 | Efficient RkNN Retrieval with Arbitrary Non-Metric Similarity Measures
+COMAD 2010 | Content-Aware Master Data Management
+EDBT 2011 | Efficient Reverse Skyline Retrieval with Arbitrary Non-Metric Similarity Measures
+IAAH 2011 | Digital Documentation of Excavation Data: Pattanam Archeological Research
+SDM 2011 | Fast Rule Mining Over Multi-Dimensional Windows
+CIKM 2011 | More or Better: On Trade-offs in Compacting Textual Problem Solution Repositories
+KAIS 2012 | Interpretable and Reconfigurable Clustering of Document Datasets by Deriving Word-based Rules
+SRII 2012 | Configurable and Extensible Multi-flows for Providing Analytics as a Service on the Cloud
+SIGIR 2012 | Retrieving Similar Discussion Forum Threads: A Structure based Approach
+WAIM 2012 | Finding Relevant Tweets
+VLDB 2012 | Exploiting evidence from unstructured data to enhance master data management
+CIKM 2012 | Two-part Segmentation of Text Documents
+WISE 2012 | Improving Recall of Regular Expressions for Information Extraction
+ECIR 2013 | Query Suggestions for Textual Problem Solution Repositories
+ACL 2014 | Unsupervised Solution Post Identification from Discussion Forums
+SEM 2014 | Generating a Word-Emotion Lexicon from #Emotional Tweets
+EDBT 2014 | Fast Mining of Interesting Phrases from Subsets of Text Corpora
+PKDD 2014 | Detecting Localized Homogeneous Anomalies over Spatio-Temporal Data
+ICDE 2015 | Indexing and Matching Trajectories under Inconsistent Sampling Rates
+WWW 2015 | Inferring and Exploiting Categories for Next Location Prediction
+Springer 2015 | Operators for Similarity Search: Semantics, Techniques and Usage Scenarios
+Springer 2016 | Anomaly Detection for Data with Spatial Attributes
+ECAI 2016 | Leveraging Stratification in Twitter Sampling
+WISE 2016 | Select, Link and Rank: Diversified Query Expansion and Entity Ranking using Wikipedia
+CONF 2016 | Unsupervised Concept Hierarchy Learning: A Topic Modeling Guided Approach
+Annals 2016 | Fast, Accurate and Flexible Similarity Search
+AI 2016 | Emotion-corpus based Sentiment Lexicons for Twitter Sentiment Analysis
+CIKM 2016 | Evaluating Document Retrieval Methods for Resource Selection in Clustered P2P IR
+EMNLP 2016 | MixKMeans: Clustering Question-Answer Archives
+ICTAI 2016 | Clustering-based Query Routing in Cooperative Semi-structured Peer to Peer Networks
+ISTA 2017 | Topic Modeling for Unsupervised Concept Extraction and Document Ranking
+ECIR 2017 | LTRo: Learning to Route Queries in Clustered P2P IR
+PRL 2017 | Lexicon based Feature Extraction for Emotion Text Classification
+IEEEIS 2017 | Lexicon Generation for Emotion Detection from Text
+RANLP 2017 | Multi-entity sentiment analysis using entity-level feature extraction and deep learning approach
+IJCAI 2017 | LoCaTe: Influence Quantification for Location Promotion in Location-based Social Networks
+WWWJ 2017 | Leveraging Semantic Resources in Diversified Query Expansion
+EMNLP 2017 | Latent Space Embedding for Retrieval in Question-Answer Archives
+ICON 2017 | Unsupervised Separation of Transliterable and Native Words for Malayalam
+WLS 2018 | Emotion-Aware Polarity Lexicons for Twitter Sentiment Analysis
+WWWJ 2018 | Leveraging Semantic Resources in Diversified Query Expansion
+PAKDD 2018 | It pays to be Certain: Unsupervised Record Linkage via Ambiguity Minimization
+AAAI 2018 | Content and Context: Two-pronged Bootstrapped Learning for Regex-formatted Entity Extraction
+DEXA 2018 | Fast Identification of Interesting Spatial Regions with Applications in Human Development Research
+CASSP 2018 | Topic-specific sentiment analysis can help identify political ideology
+UPCON 2018 | Integrated Energy Management Framework for Environmentally Sustainable Energy Access
+Springer 2019 | Leveraging Heterogeneous Data for Fake News Detection
+Springer 2019 | Semi-supervised and Unsupervised Approaches to Record Pairs Classification in Multi-Source Data Linkage
+Springer 2019 | Multi-View Clustering
+Springer 2019 | Linking and Mining Heterogeneous and Multi-view Data
+ACMTIST 2019 | Location-Specific Influence Quantification in Location-based Social Networks
+ICMLWorkshop 2019 | Warping Resilient Time Series Embeddings
+RANLP 2019 | Sentiment and Emotion Based Representations for Fake Reviews Detection
+ISAP 2019 | Time Series Representation Learning Applications for Power Analytics
+AAAI 2020 | Distributed Representations for Arithmetic Word Problems
+EDBT 2020 | Fairness in Clustering with Multiple Sensitive Attributes

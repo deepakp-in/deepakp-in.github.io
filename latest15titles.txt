@@ -1,0 +1,31 @@
+ Leveraging Semantic Resources in Diversified Query Expansion
+ Latent Space Embedding for Retrieval in Question-Answer Archives
+ Unsupervised Separation of Transliterable and Native Words for Malayalam
+ Emotion-Aware Polarity Lexicons for Twitter Sentiment Analysis
+ Leveraging Semantic Resources in Diversified Query Expansion
+ It pays to be Certain: Unsupervised Record Linkage via Ambiguity Minimization
+ Content and Context: Two-pronged Bootstrapped Learning for Regex-formatted Entity Extraction
+ Fast Identification of Interesting Spatial Regions with Applications in Human Development Research
+ Topic-specific sentiment analysis can help identify political ideology
+ Integrated Energy Management Framework for Environmentally Sustainable Energy Access
+ Leveraging Heterogeneous Data for Fake News Detection
+ Semi-supervised and Unsupervised Approaches to Record Pairs Classification in Multi-Source Data Linkage
+ Multi-View Clustering
+ Linking and Mining Heterogeneous and Multi-view Data
+ Location-Specific Influence Quantification in Location-based Social Networks
+ Warping Resilient Time Series Embeddings
+ Sentiment and Emotion Based Representations for Fake Reviews Detection
+ Time Series Representation Learning Applications for Power Analytics
+ Distributed Representations for Arithmetic Word Problems
+ Fairness in Clustering with Multiple Sensitive Attributes
+ Representativity Fairness in Clustering
+ ReSCo-CC: Unsupervised Identification of Key Disinformation Sentences
+ Exploring Thematic Coherence in Fake News
+ On the Coherence of Fake News Articles
+ Unsupervised Fake News Detection: A Graph-based Approach
+ Whither Fair Clustering
+ Local Connectivity in Centroid Clustering
+ Emotion Cognizance improves Health Fake News Identification
+ Modeling Implicit Communities from Geo-tagged Event Traces using Spatio-Temporal Point Processes
+ Fair Outlier Detection
+ 
