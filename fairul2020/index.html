@@ -1,1 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="author" content="Deepak P">
+	<link rel="stylesheet" href="./home_files/minimal.css" type="text/css">
+	<style type="text/css" media="screen">
+	p.pub {}
+	span.pubtitle {font-weight:bold;}
+	a.pubtitle {font-weight:bold;}	
+	a.pubtitle:hover{}
+	.pubauth {}
+	.pubvenue {font-style:italic;}
+	.publinks a{ font-style:italic;}
+	.pubaward {color:#990000; font-style:italic;}
 
+	p.newsitem {
+	}
+	p.newsdate {
+	}
+
+	.course A{font-weight:bold;}
+
+	.course A:hover{}
+	</style>
+
+	<title>Linking and Mining Heterogeneous and Multi-view Data</title>
+
+	<!--jQuery for templating-->
+  <script type="text/javascript" src="./home_files/jquery-1.js"></script>
+  <script type="text/javascript" src="./home_files/jquery.js"></script>
+  
+</head>
+<body>
+	<div id="content">
+	  <p><h1>Fairness in Unsupervised Learning (CIKM 2020 Tutorial)</h1></p>
+	  
+	  <!-- <ul id="menu">
+  	    <li><a href="gallery.html"> Gallery </a> </li>
+	</ul> -->
+	<div class="post">
+	<div class="colone">
+	
+	<!--<img src="./qub.png" height="80">
+	<img src="./springer.png" height="80">-->
+	<br>
+	<h4>Deepak P, Queen's University Belfast, UK. <a href="mailto:deepaksp@acm.org">deepaksp@acm.org</a></h4><br>
+	<h4>Joemon M. Jose, University of Glasgow, UK. <a href="mailto:Joemon.Jose@glasgow.ac.uk">Joemon.Jose@glasgow.ac.uk</a></h4><br>
+	<h4>Sanil V, IIT Delhi, India. <a href="mailto:sanil@hss.iitd.ernet.in">sanil@hss.iitd.ernet.in</a></h4></br><br>
+	
+	<p> You have reached the homepage of the tutorial on <b>Fairness in Unsupervised Learning</b>, a tutorial to be presented at the CIKM 2020 Conference during October 2020. A tentative outline of the tutorial appears here. More details will follow in due course. </p>
+
+	<br>
+	
+	<h3>Tutorial Structure</h3>
+	
+	<br>
+	
+	<ul>
+	<li><h4>Introduction and Outline</h4> This section will introduce the high-level scope of the tutorial and outline the importance of fairness in ML in this day and age when data science algorithms are pervasive and influence decisions that would affect people’s lives in a big way. Further, this section will outline why data science algorithms are value-laden, and how choices in algorithm design and operational parameters are implicitly intended to privilege some values and normative principles over others; this will draw upon literature on AI ethics in recent times. This section will conclude with a comparative analyses of fair ML work across supervised and unsupervised learning, arguing why the relative paucity of fairness work in unsupervised learning makes it a critical research area for the immediate as well as long-term future.</li>
+	<li><h4>Motivating Scenarios</h4> This section will outline, through a chosen set of example scenarios, as to why biases in the data, algorithms, and result presentation/ interpretation open up possibilities of unfair decision making. These scenarios will involve a broad set of domains. Further, these will also encompass a broad variety of unsupervised learning tasks, such as clustering, similarity-based retrieval, anomaly/outlier detection and representation learning. These scenarios will illustrate how biases could creep into each stage and could be amplified or attenuated at subsequent stages. The target is to ensure that the audience understand and appreciate that (vanilla) unsupervised learning pipelines could produce decision-making patterns that could be considered as deeply objectionable and undesirable in the backdrop of modern democratic and liberal values.</li>
+	<li><h4>Fairness Principles</h4> This segment will introduce the audience to modern theories of justice that relate to fairness, connecting each theory with the flavour of the choices it would prefer within one or more scenarios from the examples outlined in the previous section. In this exercise, we will place emphasis on and ensure broad coverage of principles including those from the body of work pioneered by John Rawls’ work on justice as fairness. The following is a non-comprehensive list of the key principles we will cover, with specific reference to their importance in unsupervised learning:
+	<ul>
+	<li> Individual Fairness </li>
+	<li> Group Fairness </li>
+	<li> Counterfactual Fairness </li>
+	<li> Rawlsian Fairness </li>
+	<li> Fairness and Desert </li>
+	</ul></li>
+	<li><h4>Current FairML Algorithms and Fairness</h4> Through an illustrative analysis, we will profile the underlying structure of existing unsupervised learning algorithms on the basis of the kind of fairness principles they adhere to. We will observe and argue, through a series of examples, that individual fairness has been preferred in classical algorithms for unsupervised learning tasks such as clustering, representation learning and retrieval.</li>
+	<li><h4>Fair Unsupervised Learning</h4>This section will follow a conventional data science tutorial structure, outlining state-of-the-art algorithms for fairness in unsupervised learning. We will structure this into several parts, focusing on particular tasks, covering a few representative techniques from each task, as follows:
+	<ul>
+	<li><b>Clustering:</b> Clustering is arguably the most popular task in unsupervised learning, and thus the first one to have gathered significant attention within fair unsupervised learning. We will categorize fair clustering work along multiple facets: (i) Stage of Fairness Embedding, (ii) Admissible Types of Protected Attributes, (iii) Theoretical Guarantees and Empirical Analyses, and (iv) Usage of Sensitive Attributes. </li>
+	<li><b>Retrieval:</b> Retrieval, encompassing both information retrieval and database similarity search, are pervasive tools used to address information needs. Fairness work in retrieval has been more diverse in structure than the counterpart in clustering, and will be covered under the following heads: (i) Representational Parity, (ii) Parity of Attention, and (iii) Miscellaneous. </li>
+	<li><b>Representation Learning:</b> The third task of interest that we will cover are those on representation learning. In a way, these could be seen as pre-processing techniques since a de-biased representation would reduce data bias upfront, and significantly mitigate possibilities of bias amplification in the pipeline. We structure this as separate sub-segments as below: (i) Representational Harm, (ii) Methods for de-biasing, and (iii) Miscellaneous. </li>
+	<li><b>Outlier Detection:</b> In contrast to the above tasks, there has been very little work on fair outlier detection. We illustrate possible notions of unfairness in outlier detection and also cover a recent (upcoming) work on a human-in-the-loop fairness auditing method for outlier detection. </li>
+	</ul>
+	</li>
+	<li><h4>Research Frontiers for Fair Unsupervised Learning</h4> In this section, we will conclude the tutorial by outlining potential directions for future work. First, we will consider the distribution of research attention across unsupervised learning tasks, and outline tasks that have received relatively less attention. Second, we will profile the state-of-the-art along the variety of normative principles of fairness that are out there, and outline directions that are yet to be explored. Third, we will consider domain-specific research gaps, such as fairness frontiers that are particularly relevant to specific communities (e.g., healthcare, and proactive policing) as opposed to others.We will conclude the talk by listing several references for the benefit of the audience.</li>
+	</ul>
+	
+	<br><br>
+	<h3> References </h3>
+	
+	Some references that are relevant for this tutorial topic are listed below. 
+	
+	<br>
+	<ul>
+	<li>Mohsen Abbasi, Sorelle A Friedler, Carlos Scheidegger, and Suresh Venkatasubramanian. 2019. Fairness in representation: quantifying stereotyping as a representational harm. In Proceedings of the 2019 SIAM International Conference on Data Mining. SIAM, 801–809.</li>
+<li>Savitha Sam Abraham, Deepak P, and Sowmya S. Sundaram. 2020. Fairness in Clustering with Multiple Sensitive Attributes. In EDBT. OpenProceedings.org, 287–298.</li>
+<li>Sara Ahmadian, Alessandro Epasto, Ravi Kumar, and Mohammad Mahdian. 2019. Clustering without over-representation. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. 267–275.</li>
+<li>Aris Anagnostopoulos, Luca Becchetti, Matteo Böhm, Adriano Fazzone, Stefano Leonardi, Cristina Menghini, and Chris Schwiegelshohn. 2019. Principal Fairness: Removing Bias via Projections. CoRR abs/1905.13651 (2019).</li>
+<li>Abolfazl Asudeh, HV Jagadish, Julia Stoyanovich, and Gautam Das. 2019. Designing fair ranking schemes. In Proceedings of the 2019 International Conference on Management of Data. 1259–1276.</li>
+<li>Suman Bera, Deeparnab Chakrabarty, Nicolas Flores, and Maryam Negahbani. 2019. Fair algorithms for clustering. In Advances in Neural Information Processing Systems. 4955–4966.</li>
+<li>Asia J Biega, Krishna P Gummadi, and GerhardWeikum. 2018. Equity of attention: Amortizing individual fairness in rankings. In The 41st international acm sigir conference on research & development in information retrieval. 405–414.</li>
+<li>Reuben Binns. [n.d.]. Fairness in Machine Learning: Lessons from Political Philosophy. In FAT* 2018 (Proceedings of Machine Learning Research), Sorelle A. Friedler and Christo Wilson (Eds.), Vol. 81. 149–159.</li>
+<li>Tolga Bolukbasi, Kai-Wei Chang, James Y Zou, Venkatesh Saligrama, and Adam T Kalai. 2016. Man is to computer programmer as woman is to homemaker? debiasing word embeddings. In Advances in neural information processing systems. 4349–4357.</li>
+<li>L. Elisa Celis, Damian Straszak, and Nisheeth K. Vishnoi. 2018. Ranking with Fairness Constraints. ICALP (2018).</li>
+<li>Xingyu Chen, Brandon Fain, Liang Lyu, and Kamesh Munagala. 2019. Proportionally Fair Clustering. In ICML (Proceedings of Machine Learning Research), Kamalika Chaudhuri and Ruslan Salakhutdinov (Eds.), Vol. 97. PMLR, Long Beach, California, USA, 1032–1041.</li>
+<li>Flavio Chierichetti, Ravi Kumar, Silvio Lattanzi, and Sergei Vassilvitskii. 2017. Fair clustering through fairlets. In Advances in Neural Information Processing Systems. 5029–5037.</li>
+<li>Alexandra Chouldechova and Aaron Roth. 2020. A snapshot of the frontiers of fairness in machine learning. Commun. ACM 63, 5 (2020), 82–89.</li>
+<li>Norman Daniels. 2007. Just health: meeting health needs fairly. Cambridge University Press.</li>
+<li>Ian Davidson and SS Ravi. 2020. A Framework for Determining the Fairness of Outlier Detection. ECAI (2020).</li>
+<li>Cynthia Dwork, Moritz Hardt, Toniann Pitassi, Omer Reingold, and Richard Zemel. 2012. Fairness through awareness. In Proceedings of the 3rd innovations in theoretical computer science conference. 214–226.</li>
+<li>James Foulds and Shimei Pan. 2020. An intersectional definition of fairness. ICDE (2020).</li>
+<li>Sariel Har-Peled and Sepideh Mahabadi. 2019. Near Neighbor: Who is the Fairest of Them All?. In Advances in Neural Information Processing Systems. 13176–13187.</li>
+<li>Yuzi He, Keith Burghardt, and Kristina Lerman. 2020. A Geometric Solution to Fair Representations. In Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society. 279–285.</li>
+<li>Carl Knight. 2009. Luck egalitarianism: Equality, responsibility, and justice. Edinburgh university Press.</li>
+<li>Juhi Kulshrestha, Motahhare Eslami, Johnnatan Messias, Muhammad Bilal Zafar, Saptarshi Ghosh, Krishna P Gummadi, and Karrie Karahalios. 2017. Quantifying search bias: Investigating sources of bias for political searches in social media. In Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing. 417–432.</li>
+<li>Matt J Kusner, Joshua Loftus, Chris Russell, and Ricardo Silva. 2017. Counterfactual fairness. In Advances in Neural Information Processing Systems. 4066–4076.</li>
+<li>Brent Daniel Mittelstadt, Patrick Allo, Mariarosaria Taddeo, SandraWachter, and Luciano Floridi. 2016. The ethics of algorithms: Mapping the debate. Big Data & Society 3, 2 (2016), 2053951716679679.</li>
+<li>Matt Olfat and Anil Aswani. 2019. Convex formulations for fair principal component analysis. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 33. 663–670.</li>
+<li>Deepak P and Savitha Sam Abraham. 2020. Representativity Fairness in Clustering. In ACM Web Science.</li>
+<li>Panagiotis Papadakos and Giannis Konstantakis. 2020. bias goggles: Graph-Based Computation of the Bias of Web Domains Through the Eyes of Users. Advances in Information Retrieval 12035 (2020), 790.</li>
+<li>John Rawls. 1971. A theory of justice. Harvard university press.</li>
+<li>John Rawls. 2001. Justice as fairness: A restatement. Harvard University Press.</li>
+<li>Samira Samadi, Uthaipon Tantipongpipat, Jamie H Morgenstern, Mohit Singh, and Santosh Vempala. 2018. The price of fair pca: One extra dimension. In Advances in Neural Information Processing Systems. 10976–10987.</li>
+<li>Ashudeep Singh and Thorsten Joachims. 2018. Fairness of exposure in rankings. In Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. 2219–2228.</li>
+<li>Caitlin D Wylie. 2020. Who Should Do Data Ethics? Patterns 1, 1 (2020), 100015.</li>
+<li>Ke Yang and Julia Stoyanovich. 2017. Measuring fairness in ranked outputs. In Proceedings of the 29th International Conference on Scientific and Statistical Database Management. 1–6.</li>
+<li>Meike Zehlike, Francesco Bonchi, Carlos Castillo, Sara Hajian, Mohamed Megahed, and Ricardo Baeza-Yates. 2017. Fa* ir: A fair top-k ranking algorithm. In Proceedings of the 2017 ACM on Conference on Information and Knowledge Management. 1569–1578.</li>
+<li>Imtiaz Masud Ziko, Eric Granger, Jing Yuan, and Ismail Ben Ayed. 2019. Clustering with Fairness Constraints: A Flexible and Scalable Approach. arXiv preprint arXiv:1906.08207 (2019).</li>
+<li> Deepak P, Savitha Sam Abraham, Fair Outlier Detection, 2020, arXiv preprint arXiv:2005.09900</li>
+	</ul>
+	
+	<br>
+	<br>
+	
+
+</div>
+		<div id="footer">
+		</div>	
+    </div>
+  </div>
+
+
+</body></html>
